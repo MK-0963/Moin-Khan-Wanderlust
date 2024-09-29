@@ -1,0 +1,198 @@
+body {
+    background-color: pink;
+}
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+
+.fa-compass{
+    color: red;
+    font-size: 3rem;
+}
+
+.nav-link{
+    color: red !important;
+    background-color: white;
+}
+
+.nav-link:hover{
+    color: white !important;
+    background-color: red;
+    border-radius: 3rem;
+ 
+}
+
+
+
+
+
+.f-info-links{
+
+    color: aquamarine;
+}
+
+
+.f-info-links a:hover{
+    text-decoration:underline;
+}
+
+
+.f-info{
+     
+    height: 10rem;
+    background-color: gray;
+  align-items: space-evenly;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+.f-info-socials{
+    font-size: 3rem;
+}
+
+.listing-card{
+
+    border: none !important;
+
+}
+
+.card-img-top{
+
+    border-radius: 1rem;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+
+.card-img-top{
+    text-align: initial;
+    opacity: 1 ; 
+}
+
+.card-img-top:hover{
+
+    opacity: 0.7 !important; 
+    cursor: pointer;
+    background-color: white !important;
+}
+
+.btn  {
+    
+    color: white !important;background-color: red !important;
+}
+
+
+.show-image {
+    height: 600px;
+    width:100px ;
+}
+
+
+
+.anchor{
+    color: white;
+    text-decoration: none;
+}
+
+
+.btn-dark {
+ color: white !important;
+    background-color:black!important;
+}
+
+
+
+.anonymous{
+
+    color:brown ;
+}
+
+.btn-black {
+    border-radius: 0.5rem;
+   block-size: 3.5cap;
+    color: aliceblue !important;
+    background-color: black !important;
+}
+
+
+
+
+
+
+#map { 
+    height: 400px;
+    width: 80vh; 
+}
+
+.Welcome{
+    font-family: 'Dancing Script', cursive;
+   font-size: xxx-large;
+   margin-left: 4rem;
+   color: red;
+    
+   
+}
+
+.Welcome:hover{
+   color: white;
+   background-color: red;
+   border-radius: 3rem;
+   padding: 8px 12px;
+}
+
+
+
+/* // multiplyer //  */
+
+.booking-container {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 20px auto; /* Center the container */
+    text-align: center;
+    
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+ input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+} 
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 5px 0;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
